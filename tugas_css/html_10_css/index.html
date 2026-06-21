@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>rafa maulidan</title>
+</head>
+<body>
+  <title>Lesson 10</title>
+    <style>
+        body {
+            font-family: Arial;
+        }
+
+        /* kiri kanan */
+        .main {
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+            gap: 40px;
+        }
+
+          /* profil */
+        .card {
+            background-color: #f2f2f2;
+            width: 400px;
+            padding: 15px;
+            border-radius: 8px;
+        }
+
+        .profile {
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            margin-bottom: 15px;
+        }
+
+        .left-section {
+            display: flex;
+            align-items: center;
+        }
+
+        .profile img {
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            margin-right: 10px;
+        }
+
+        .nama {
+            font-weight: bold;
+        }
+
+        .info {
+            color: gray;
+            font-size: 14px;
+        }
+
+        .follow-btn {
+            background-color: #1d9bf0;
+            color: white;
+            border: none;
+            padding: 8px 15px;
+            border-radius: 6px;
+            cursor: pointer;
+        }
+
+        /* VIDEO  */
+        .video-yt {
+            width: 500px;
+            padding: 15px;
+            border: 1px solid #ddd;
+            border-radius: 6px;
+        }
+
+        .video {
+            display: flex;
+            margin-bottom: 15px;
+        }
+
+        .thumbnail {
+            width: 160px;
+            height: 90px;
+            object-fit: cover;
+            margin-right: 10px;
+            border-radius: 4px;
+            background-color: lightgray;
+        }
+
+        .title {
+            font-weight: bold;
+            font-size: 14px;
+            margin-bottom: 6px;
+        }
+
+        .channel,
+        .stats {
+            color: gray;
+            font-size: 12px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="main">
+
+    <!-- PROFILE SECTION (KIRI) -->
+    <div class="card">
+
+        <div class="profile">
+            <div class="left-section">
+                <img src="UCING.png">
+                <div>
+                    <div class="nama">Oliver</div>
+                    <div class="info">The Cat</div>
+                    <div class="info">Popular</div>
+                </div>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        <div class="profile">
+            <div class="left-section">
+                <img src="UCING.png">
+                <div>
+                    <div class="nama">dudung</div>
+                    <div class="info">Sleepy Cat</div>
+                    <div class="info">Popular</div>
+                </div>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+        <div class="profile">
+            <div class="left-section">
+                <img src="UCING.png">
+                <div>
+                    <div class="nama">Rex</div>
+                    <div class="info">Sleep cat</div>
+                    <div class="info">Popular</div>
+                </div>
+            </div>
+            <button class="follow-btn">Follow</button>
+        </div>
+
+    </div>
+
+    <!-- VIDEO SECTION (KANAN) -->
+    <div class="video-yt">
+
+        <div class="video">
+            <img class="thumbnail" src="UCING.png">
+            <div>
+                <div class="title">How to compete against CS degrees</div>
+                <div class="channel">SuperSimpleDev</div>
+                <div class="stats">1.5K views · 4 months ago</div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="thumbnail" src="UCING.png">
+            <div>
+                <div class="title">Which programming language to learn first</div>
+                <div class="channel">SuperSimpleDev</div>
+                <div class="stats">5.7K views · 11 months ago</div>
+            </div>
+        </div>
+
+        <div class="video">
+            <img class="thumbnail" src="UCING.png">
+            <div>
+                <div class="title">Frontend web development overview</div>
+                <div class="channel">SuperSimpleDev</div>
+                <div class="stats">1K views · 4 months ago</div>
+            </div>
+</body>
+</html>
